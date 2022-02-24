@@ -8,6 +8,11 @@ base theme: drupal8_zymphonies_theme
 # Defines libraries group in which we can add css/js.
 libraries:
   - swsub/global-styling
+  # - swsub/bootstrap
+  # - swsub/fontawesome
+  # - swsub/flexslider
+  # - swsub/smartmenus
+  # - swsub/global-components
 # Regions
 #Regions
 regions:

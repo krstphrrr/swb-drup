@@ -1,0 +1,15 @@
+
+// testing sass 
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+$font-shizuru: 'Shizuru', cursive;
+$font-size-base: 3rem; // Assumes the browser default, typically `16px`
+$font-size-lg: $font-size-base * 1.25;
+
+body {
+  font-family: $font-shizuru;
+  font-weight: 400;
+  color: black;
+  font-size: $font-size-lg * 1.5;
+
+}
