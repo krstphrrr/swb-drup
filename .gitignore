@@ -1,0 +1,17 @@
+.env
+# bound volumes
+swb-drupal-sites/*
+
+# module list to later add to init.sh
+swb-drupal-modules
+
+#important to keep track of subtheming
+swb-drupal-themes/contrib
+
+# db container for debug
+swb-mysql-data/*
+
+# for mysql db dumps / import on dockerfile
+swb-mysql-backups/*
+
+
